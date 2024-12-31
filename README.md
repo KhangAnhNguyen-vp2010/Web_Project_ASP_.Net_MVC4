@@ -4,7 +4,7 @@ Database: SQL Sever
 
 ========================================
 
-Truy cập trang đằng nhập dành cho khách hàng:
+Truy cập trang đăng nhập dành cho khách hàng:
 
 http://localhost:5000/Login/DangNhap
 
