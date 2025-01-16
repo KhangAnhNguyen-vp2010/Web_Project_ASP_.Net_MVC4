@@ -1,0 +1,18 @@
+﻿@model IEnumerable<QuanLyBanNoiThat.Models.LOAISP>
+
+@{
+    ViewBag.Title = "ShowTheLoai";
+    Layout = null;
+}
+
+
+<div class="title-sidebar">Thể Loại</div>
+@foreach (var item in Model)
+{
+    <div class="in-sidebar">
+        <div><a href="@Url.Action("SP_Theo_TheLoai","TheLoai", new { id = item.MALOAI.Trim() })" style="text-decoration:none" class="name">@item.TENLOAI</a></div>
+    </div>                   
+}
+                
+                
+              

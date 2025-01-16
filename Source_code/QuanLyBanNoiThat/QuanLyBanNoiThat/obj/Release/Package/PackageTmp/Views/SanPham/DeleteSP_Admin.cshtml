@@ -1,0 +1,71 @@
+﻿@model QuanLyBanNoiThat.Models.SANPHAM
+
+@{
+    ViewBag.Title = "DeleteSP_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+
+<h3 style="text-align:center">Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>SANPHAM</legend>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.TENSP)</strong>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TENSP)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MOTA)</strong>      
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MOTA)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.GIA)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GIA)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MALOAI)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MALOAI)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.SL_TON)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SL_TON)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.HINHANH)</strong>
+    </div>
+    <div class="display-field">
+        @if (!string.IsNullOrEmpty(Model.HINHANH))
+                {
+                    <img src="@Url.Content("~/Picture/Shop/" + Model.HINHANH)" alt="" style="max-width:100px; max-height:100px;" />
+                }
+                else
+                {
+                  <span>Không có hình ảnh</span>
+                }   
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p style="text-align:center">
+        <input type="submit" value="Delete" class="my-button"/>        
+    </p>
+    <p style="text-align:center">
+        <a href="@Url.Action("ShowSanPham_ForAdmin")" class="my-button">Back To List</a>
+    </p>
+}

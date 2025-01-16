@@ -1,0 +1,88 @@
+﻿@model QuanLyBanNoiThat.Models.SANPHAM
+
+@{
+    ViewBag.Title = "CreateSP_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>SANPHAM</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MASP)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MASP)
+            @Html.ValidationMessageFor(model => model.MASP)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TENSP)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TENSP)
+            @Html.ValidationMessageFor(model => model.TENSP)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MOTA)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MOTA)
+            @Html.ValidationMessageFor(model => model.MOTA)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GIA)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GIA)
+            @Html.ValidationMessageFor(model => model.GIA)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MALOAI)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MALOAI)
+            @Html.ValidationMessageFor(model => model.MALOAI)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SL_TON)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SL_TON)
+            @Html.ValidationMessageFor(model => model.SL_TON)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HINHANH)
+        </div>
+        <div class="editor-field">
+            <!-- Input tải lên hình ảnh mới -->
+            <input type="file" name="HINHANH" class="form-control"/>
+            @Html.ValidationMessageFor(model => model.HINHANH)
+        </div>
+
+        <p class="message">
+            @ViewBag.ThongBao
+        </p>
+
+        <p style="text-align:center">
+            <input type="submit" value="Create" class="my-button"/>       
+        </p>
+    </fieldset>
+}
+<div style="text-align:center">
+    <a href="@Url.Action("ShowSanPham_ForAdmin")" class="my-button">Back To List</a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

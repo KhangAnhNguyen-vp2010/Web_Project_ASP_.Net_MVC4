@@ -1,0 +1,376 @@
+﻿@using QuanLyBanNoiThat.Models;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    @*<title>@ViewBag.Title</title>*@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="~/Css/main.css" />
+    <link rel="stylesheet" href="~/Css/main-moblie.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/Css/about.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="~/Css/blog.css" />
+    <link rel="stylesheet" href="~/Css/Shop.css" />
+
+    <title>Shop</title>
+</head>
+<body>
+    <div class="header">
+        <div class="content">
+            <div class="box-menu-mobile">
+                <button>
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <nav class="box-menu">
+                <ul class="all-list-menu">
+                    <li>
+                        <a href="@Url.Action("Index", "Home")" class="hover-a">Trang Chủ</a>
+                        <!-- <a href="">
+                                      <i class="fa-solid fa-angle-down angle-down"></i>
+                                  </a> -->
+                    </li>
+                    <li class="padding-list-menu">
+                        <a href="@Url.Action("ShowSanPham", "SanPham")" class="hover-a">Shop</a>
+                        <!-- <a href="">
+                                      <i class="fa-solid fa-angle-down angle-down"></i>
+                                  </a> -->
+                    </li>
+                    <li class="padding-list-menu">
+                        <a href="@Url.Action("About", "Home")" class="hover-a">Giới Thiệu</a>
+                        <!-- <a href="">
+                                      <i class="fa-solid fa-angle-down angle-down"></i>
+                                  </a> -->
+                    </li>
+                    <li class="padding-list-menu">
+                        <a href="@Url.Action("Blog", "Home")" class="hover-a">Blog</a>
+                        <!-- <a href="">
+                                      <i class="fa-solid fa-angle-down angle-down"></i>
+                                  </a> -->
+                    </li>
+                </ul>
+            </nav>
+            <div class="box-logo">
+                <div class="logo">
+                    <a>
+                        <img src="~/Picture/Screenshot 2024-06-10 120631.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            @if (Session["NameKH"] != null)
+              {          
+                  <div class="box-icon">
+                      <a href="@Url.Action("DetailsKH_TheoTenTK", "KhachHang", new { tentk = Session["NameKH"] })">Xin Chào!!! @Session["NameKH"]</a>
+                      <a href="@Url.Action("ShowGioHang", "HoaDon", new { id = Session["MaKH"] })" class="box-cart">
+                        <i class="fa-solid fa-cart-shopping cart"></i>
+                      </a>
+                      <a href="@Url.Action("Log_out", "Home")" class="box-cart">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                      </a>
+                  </div>
+              }
+              else
+              {
+                <div class="box-icon">
+                          <a href="@Url.Action("DangNhap", "Login")" class="box-user">
+                            <i class="fa-regular fa-user user"></i>
+                          </a>        
+                        </div>
+              }  
+        </div>
+    </div>
+    <div class="box-banner-shop" style="background: url('@Url.Content("~/Picture/about-shop-blog.jpg")') no-repeat center center;">
+        <div class="in-box-banner">
+            <div class="text-title-banner">Shop</div>
+            <div class="box-path" style="color:white">
+                <div>Trang Chủ</div>
+                <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div>Sản Phẩm</div>
+            </div>
+            <div class="box-list-product">
+                <div class="box-shop-product">
+                    <a>
+                        <img src="~/Picture/Shop/categories-19.jpg" alt="" />
+                        <div class="name-product">
+                            <p>Armchairs</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-shop-product">
+                    <a>
+                        <img src="~/Picture/Shop/categories-18.jpg" alt="" />
+                        <div class="name-product">
+                            <p>Outdoor</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-shop-product">
+                    <a>
+                        <img src="~/Picture/Shop/categories-6.jpg" alt="" />
+                        <div class="name-product">
+                            <p>Sofas</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-shop-product">
+                    <a>
+                        <img src="~/Picture/Shop/categories-10.jpg" alt="" />
+                        <div class="name-product">
+                            <p>Storage</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-shop">
+        <div class="box-sidebar">
+            <div class="first-sidebar">
+                @Html.Action("ShowTheLoai", "TheLoai")
+            </div>
+            <div class="box-price">
+                <div class="price-title">Giá</div>
+                <input type="range" name="" id="" />
+                <div class="box-range">
+                    Range:
+                    <span>$50</span>
+                    <span>-</span>
+                    <span>$500</span>
+                </div>
+            </div>
+            <div class="box-color">
+                <div class="title-box-color">Màu Sắc</div>
+                <div class="list-color">
+                    <ul>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: black"></div>
+                                <span class="name-color">Black</span>
+                            </div>
+                            <div class="text-number">2</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #445162"></div>
+                                <span class="name-color">Blue</span>
+                            </div>
+                            <div class="text-number">2</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #4b4e43"></div>
+                                <span class="name-color">Green</span>
+                            </div>
+                            <div class="text-number">1</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #e7ddd1"></div>
+                                <span class="name-color">Highnoon</span>
+                            </div>
+                            <div class="text-number">1</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #ef5050"></div>
+                                <span class="name-color">Red</span>
+                            </div>
+                            <div class="text-number">1</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #f9c9bf"></div>
+                                <span class="name-color">Rose</span>
+                            </div>
+                            <div class="text-number">1</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #dca489"></div>
+                                <span class="name-color">Sunrise</span>
+                            </div>
+                            <div class="text-number">1</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color"
+                                     style="background-color: #fff; border: 1px solid gray"></div>
+                                <span class="name-color">White</span>
+                            </div>
+                            <div class="text-number">4</div>
+                        </li>
+                        <li>
+                            <div class="color-name">
+                                <div class="in-color" style="background-color: #c69a02"></div>
+                                <span class="name-color">Yellow</span>
+                            </div>
+                            <div class="text-number">2</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="all-box-brands">
+                <div class="title-brands">Brands</div>
+                <div class="box-list-brands">
+                    <div class="box-img-brands">
+                        <a>
+                            <img src="~/Picture/Shop/brand-1-1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="box-img-brands">
+                        <a>
+                            <img src="~/Picture/Shop/brand-2-1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="box-img-brands">
+                        <a>
+                            <img src="~/Picture/Shop/brand-3-1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="box-img-brands">
+                        <a>
+                            <img src="~/Picture/Shop/brand-4-1.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+    </div>  
+    <div class="box-first-footer">
+        <div class="contact">
+            <h2>LIÊN HỆ</h2>
+            <div class="in">
+                <div>
+                    42RPM+8CX, P. Chùa Một Cột, Đội Cấn, Ba Đình, Hà Nội 100000, Việt
+                    Nam
+                </div>
+                <div>SĐT : 866.453.4748</div>
+                <div>phule@gmail.com</div>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>THỂ LOẠI</h2>
+            <div class="in">
+                <a href="">
+                    <div>Nội Thất</div>
+                </a>
+                <a href="">
+                    <div>Bàn</div>
+                </a>
+                <a href="">
+                    <div>Ghế</div>
+                </a>
+                <a href="">
+                    <div>Văn Phòng | Bàn Làm Việc</div>
+                </a>
+                <a href="">
+                    <div>Kho</div>
+                </a>
+                <a href="">
+                    <div>Giường | Bồn Tắm</div>
+                </a>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>DỊCH VỤ</h2>
+            <div class="in">
+                <a href="">
+                    <div>Sale</div>
+                </a>
+                <a href="">
+                    <div>Ship</div>
+                </a>
+                <a href="">
+                    <div>Thiết Kế Mới</div>
+                </a>
+                <a href="">
+                    <div>Accidental Fabric Protection</div>
+                </a>
+                <a href="">
+                    <div>Chăm Sóc Nội Thất</div>
+                </a>
+                <a href="">
+                    <div>Thẻ Quà Tặng</div>
+                </a>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>THAM GIA VỚI CHÚNG TÔI</h2>
+            <div class="in">
+                <div style="margin-bottom: 25px">
+                    Nhập email của bạn bên dưới để là người đầu tiên biết về các bộ sưu
+                    tập mới và ra mắt sản phẩm.
+                </div>
+                <div class="box-email">
+                    <input type="text" placeholder="Email adress..." />
+                    <button type="submit">
+                        <i class="fa-solid fa-envelope"></i>
+                    </button>
+                </div>
+                <div class="icon-contact">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-behance"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-second-footer">
+        <div class="first-box">
+            <div class="title">Bản Quyền © 2024</div>
+        </div>
+        <div class="second-box">
+            <div class="box-bank">
+                <img src="~/Picture/payments-1.png" alt="" />
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<script src="https://kit.fontawesome.com/eda05fcf5c.js"
+        crossorigin="anonymous"></script>
+<script src="~/js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>

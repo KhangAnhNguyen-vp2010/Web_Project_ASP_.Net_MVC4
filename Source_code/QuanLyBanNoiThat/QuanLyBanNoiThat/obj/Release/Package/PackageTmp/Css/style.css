@@ -1,0 +1,22 @@
+fieldset {
+        width:30%;
+        margin:auto
+    }
+
+    .my-button {
+          background-color: #4CAF50; /* Màu xanh lá cây */
+          border: none;
+          color: white;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+    }
+
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white;
+    }

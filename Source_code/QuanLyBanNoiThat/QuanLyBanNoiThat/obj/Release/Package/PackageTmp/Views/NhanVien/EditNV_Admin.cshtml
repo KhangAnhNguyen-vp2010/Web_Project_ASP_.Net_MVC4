@@ -1,0 +1,73 @@
+﻿@using QuanLyBanNoiThat.Models;
+
+@model QuanLyBanNoiThat.Models.NHANVIEN
+
+
+
+@{
+    ViewBag.Title = "EditNV_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>NHANVIEN</legend>
+
+        @Html.HiddenFor(model => model.MANV)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TENNHANVIEN)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TENNHANVIEN)
+            @Html.ValidationMessageFor(model => model.TENNHANVIEN)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SDT)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SDT)
+            @Html.ValidationMessageFor(model => model.SDT)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EMAIL)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EMAIL)
+            @Html.ValidationMessageFor(model => model.EMAIL)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NGAYVAOLAM)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.NGAYVAOLAM, "{0:yyyy/MM/dd}", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.NGAYVAOLAM)
+        </div>
+
+        <p style="text-align:center">
+            <input type="submit" value="Save" class="my-button" />
+        </p>
+    </fieldset>
+}
+
+<div style="text-align:center">
+    @if (Static_Staff_Admin.vaiTro == "staff")
+    {
+        <a href="@Url.Action("Index", "Admin")" class="my-button">Back To List</a>
+    }
+    else
+    {
+        <a href="@Url.Action("ShowNV_ForAdmin")" class="my-button">Back To List</a>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

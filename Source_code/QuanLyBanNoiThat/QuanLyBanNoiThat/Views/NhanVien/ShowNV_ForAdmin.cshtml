@@ -1,0 +1,118 @@
+﻿@model IEnumerable<QuanLyBanNoiThat.Models.NHANVIEN>
+
+@{
+    ViewBag.Title = "ShowNV_ForAdmin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<style>
+    table {
+        width:90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+    td {
+        background-color: #fafafa;
+    }
+
+    .my-button {
+          background-color: #4CAF50; /* Màu xanh lá cây */
+          border: none;
+          color: white;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+    }
+
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>
+            @Html.ActionLink("Tạo Nhân Viên", "CreateNV_Admin")
+        </th>
+    </tr>
+</table>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" style="text-align:center; color: #f00">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert" style="text-align:center; color: #f00">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MANV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TENNHANVIEN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NGAYVAOLAM)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MANV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TENNHANVIEN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL)
+        </td>
+        <td>
+            @(item.NGAYVAOLAM.HasValue ? item.NGAYVAOLAM.Value.ToString("dd/MM/yyyy") : "N/A")
+        </td>
+        <td>
+            <a href="@Url.Action("EditNV_Admin", new { id = item.MANV.Trim() })" class="my-button">Edit</a>
+            <a href="@Url.Action("DetailsNV_Admin", new { id = item.MANV.Trim() })" class="my-button">Details</a>
+            <a href="@Url.Action("DeleteNV_Admin", new { id = item.MANV.Trim() })" class="my-button">Delete</a>
+        </td>
+    </tr>
+}
+
+</table>

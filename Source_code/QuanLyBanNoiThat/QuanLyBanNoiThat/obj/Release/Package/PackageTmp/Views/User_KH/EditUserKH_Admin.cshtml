@@ -1,0 +1,46 @@
+﻿@model QuanLyBanNoiThat.Models._USER_KH
+
+@{
+    ViewBag.Title = "EditUserKH_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>_USER_KH</legend>
+
+        @Html.HiddenFor(model => model.MA_USER)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TENDANGNHAP)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TENDANGNHAP)
+            @Html.ValidationMessageFor(model => model.TENDANGNHAP)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MATKHAU)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MATKHAU)
+            @Html.ValidationMessageFor(model => model.MATKHAU)
+        </div>
+
+        <p style="text-align:center">
+            <input type="submit" value="Save" class="my-button" />
+        </p>
+    </fieldset>
+}
+
+<div style="text-align:center">
+    <a href="@Url.Action("ShowUserKH_ForAdmin")" class="my-button">Back To List</a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

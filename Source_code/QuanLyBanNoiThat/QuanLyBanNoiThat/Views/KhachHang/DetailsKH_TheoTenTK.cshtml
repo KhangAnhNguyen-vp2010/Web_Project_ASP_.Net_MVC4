@@ -1,0 +1,110 @@
+﻿@model QuanLyBanNoiThat.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "DetailsKH_TheoTenTK";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* ... các style đã có ... */
+
+    .tour-details {
+        background-color: #f5f5f5;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        margin: auto;
+        width: 30%;
+    }
+
+    .tour-image {
+        text-align:center;
+    }
+
+    .tour-description {
+        padding-left: 20px;
+    }
+
+    .tour-description p {
+        margin-bottom: 10px;
+    }
+
+    .tour-actions {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .my-button {
+          background-color: #4CAF50; /* Màu xanh lá cây */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+    }
+
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white;
+    }
+
+    /* ... các style responsive và tùy chỉnh khác ... */
+</style>
+
+<div class="tour-details">
+    <h2 style="text-align:center">Hồ Sơ Của Bạn</h2>
+
+    <div class="tour-info">
+        <div class="tour-image">
+            @if (!string.IsNullOrEmpty(Model.HINHANH))
+            {
+                <img src="@Url.Content("~/Picture/KhachHang/" + Model.HINHANH)" alt="" style="max-width:300px; max-height:300px;" />
+            }
+            else
+            {
+              <span>Không có hình ảnh</span>
+            }
+        </div>
+
+        <div class="tour-description">
+            <p><strong>Tên:</strong> @Model.TENKH</p>
+            <p><strong> Địa Chỉ:</strong> @if (Model.DIACHI==null)
+                                          {
+                                              <i>Chưa Cập Nhật</i>
+                                          }
+                                          else
+	                                      {
+                                              @Model.DIACHI
+	                                      }
+            </p>
+            <p><strong>Email:</strong> @if (Model.EMAIL==null)
+                                       {
+                                              <i>Chưa Cập Nhật</i>
+                                       }
+                                       else
+                                       {
+                                            @Model.EMAIL
+                                       }
+            </p>         
+            <p><strong>Số Điện Thoại:</strong>@if (Model.SDT==null)
+                                               {
+                                                      <i>Chưa Cập Nhật</i>
+                                               }
+                                               else
+                                               {
+                                                    @Model.SDT
+                                               }
+            </p>
+        </div>
+    </div>
+
+    <div class="tour-actions">
+        <a href="@Url.Action("EditKH", new { id = Model.MAKH.Trim() })" class="my-button">Cập Nhật Thông Tin</a>
+    </div>
+</div>
+

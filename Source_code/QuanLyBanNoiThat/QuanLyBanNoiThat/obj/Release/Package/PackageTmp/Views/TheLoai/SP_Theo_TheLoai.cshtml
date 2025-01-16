@@ -1,0 +1,60 @@
+﻿@model IEnumerable<QuanLyBanNoiThat.Models.SANPHAM>
+
+@{
+    ViewBag.Title = "SP_Theo_TheLoai";
+    Layout = "~/Views/Shared/_LayOutShop.cshtml";
+}
+
+<div class="box-all-product">
+    <div class="all-box-new-product">
+
+        @foreach (var item in Model)
+        {
+        <div class="new-product-1">
+                <div class="pic-product-1">
+                    <a>
+                    @if (!string.IsNullOrEmpty(item.HINHANH))
+                    {
+                        <img src="@Url.Content("~/Picture/Shop/" + item.HINHANH)" alt="" id="Pic-product-1" />
+                    }
+                    else
+                    {
+                        <span>Không có hình ảnh</span>
+                    }
+                    @if (Session["NameKH"] != null)
+                    {
+                            <div class="box-icon-new-product">
+                                <a href="@Url.Action("CreateHoaDon_KH","HoaDon", new { id = item.MASP.Trim() })">
+                                        <i style="font-size: 19px"
+                                        id="cart-Product"
+                                        class="fa-solid fa-cart-shopping"
+                    
+                                        ></i>
+                                </a>
+                        </div>
+                    }    
+                    </a>
+                </div>
+                <div class="box-star" style="width: 100%; height: 23px">
+                    <i style="color: #fcad02; margin-left: 0"
+                    class="fa-solid fa-star"
+                    ></i>
+                    <i style="color: #fcad02" class="fa-solid fa-star"></i>
+                    <i style="color: #fcad02" class="fa-solid fa-star"></i>
+                    <i style="color: #fcad02" class="fa-solid fa-star"></i>
+                    <i style="color: #fcad02" class="fa-solid fa-star"></i>
+                    <span style=" margin-left: 5px;
+                        color: rgb(201, 201, 201);
+                        font-size: 12px;
+                    "
+                    ></span>
+                </div>
+                <div class="title-new-product">
+                    <a>@Html.DisplayFor(modelItem => item.TENSP)</a>                
+                </div>
+                <div style="font-size: 16px; color: rgb(170, 167, 167)">@Html.DisplayFor(modelItem => item.GIA)</div>
+                <div class="title-new-product"><a href="@Url.Action("DetailsSanPham","SanPham", new { id = item.MASP.Trim() })">Chi Tiết Sản Phảm</a></div>
+                </div>   
+        }
+    </div>
+</div>

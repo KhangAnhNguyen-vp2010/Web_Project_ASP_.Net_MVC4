@@ -1,0 +1,49 @@
+﻿@using QuanLyBanNoiThat.Models
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="~/Css/admin.css">
+</head>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+<body>
+    <div class="container">
+        <!-- Sidebar Menu -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="~/Picture/Staff/th.jpg" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="@Url.Action("Index","Admin")">@Session["NameNV"] | Role: @Session["RoleNV"]</a></li>
+                <li><a href="@Url.Action("ShowHoaDon_ChuaDuyet","HoaDon")">Duyệt Đơn Hàng</a></li>
+                <li><a href="@Url.Action("ShowSanPham_ForAdmin","SanPham")">Sản Phẩm</a></li>
+                <li><a href="@Url.Action("ShowTheLoai_ForAdmin","TheLoai")">Loại Sản Phẩm</a></li>
+                <li><a href="@Url.Action("ShowHoaDon_ForAdmin","HoaDon")">Hoá Dơn</a></li>
+                <li><a href="@Url.Action("ShowCTHD_Admin","ChiTietHD")">Chi Tiết Hoá Đơn</a></li>
+                <li><a href="@Url.Action("ShowKH_ForAdmin","KhachHang")">Quản Lý Khách Hàng</a></li>
+                @if ((string)Session["RoleNV"] == "manager")
+                {
+                    <li><a href="@Url.Action("ShowNV_ForAdmin","NhanVien")">Quản Lý Nhân Viên</a></li>
+                    <li><a href="@Url.Action("ShowUserKH_ForAdmin","User_KH")">Account Customer</a></li>
+                    <li><a href="@Url.Action("ShowUserNV_ForAdmin","User_NV")">Account Staff/Manager</a></li>                  
+                }
+                <li><a href="@Url.Action("LoginAdmin","Admin")">Đăng Xuất</a></li>
+                
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            @RenderBody()
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <script src="~/js/admin.js"></script>
+</body>
+</html>
+

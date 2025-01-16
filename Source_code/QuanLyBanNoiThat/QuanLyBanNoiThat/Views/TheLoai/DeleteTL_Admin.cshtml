@@ -1,0 +1,35 @@
+﻿@model QuanLyBanNoiThat.Models.LOAISP
+
+@{
+    ViewBag.Title = "DeleteTL_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+<h3 style="text-align:center">Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>LOAISP</legend>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.TENLOAI)</strong>         
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TENLOAI)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MOTA)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MOTA)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p style="text-align:center">
+        <input type="submit" value="Delete" class="my-button" />  
+    </p>
+    <p style="text-align:center">
+        <a href="@Url.Action("ShowTheLoai_ForAdmin")" class="my-button">Back To List</a>
+    </p>
+}

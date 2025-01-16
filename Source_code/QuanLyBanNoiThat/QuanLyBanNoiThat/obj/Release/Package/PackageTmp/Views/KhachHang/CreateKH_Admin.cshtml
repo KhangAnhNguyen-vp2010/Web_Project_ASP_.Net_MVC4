@@ -1,0 +1,81 @@
+﻿@model QuanLyBanNoiThat.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "CreateKH_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>KHACHHANG</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MAKH)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MAKH)
+            @Html.ValidationMessageFor(model => model.MAKH)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TENKH)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TENKH)
+            @Html.ValidationMessageFor(model => model.TENKH)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DIACHI)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DIACHI)
+            @Html.ValidationMessageFor(model => model.DIACHI)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EMAIL)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EMAIL)
+            @Html.ValidationMessageFor(model => model.EMAIL)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SDT)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SDT)
+            @Html.ValidationMessageFor(model => model.SDT)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HINHANH)
+        </div>
+        <div class="editor-field">
+            <!-- Input tải lên hình ảnh mới -->
+            <input type="file" name="HINHANH" class="form-control"/>
+            @Html.ValidationMessageFor(model => model.HINHANH)
+        </div>
+
+        <p class="message">
+            @ViewBag.ThongBao
+        </p>
+
+        <p style="text-align:center">
+            <input type="submit" value="Create" class="my-button" />
+        </p>
+    </fieldset>
+}
+
+<div style="text-align:center">
+    <a href="@Url.Action("ShowKH_ForAdmin")" class="my-button">Back To List</a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

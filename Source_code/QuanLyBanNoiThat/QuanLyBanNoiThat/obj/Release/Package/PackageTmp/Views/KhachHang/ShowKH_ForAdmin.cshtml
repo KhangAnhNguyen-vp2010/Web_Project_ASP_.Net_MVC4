@@ -1,0 +1,129 @@
+﻿@model IEnumerable<QuanLyBanNoiThat.Models.KHACHHANG>
+
+@{
+    ViewBag.Title = "ShowKH_ForAdmin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<style>
+    table {
+        width:90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+    td {
+        background-color: #fafafa;
+    }
+
+    .my-button {
+          background-color: #4CAF50; /* Màu xanh lá cây */
+          border: none;
+          color: white;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+    }
+
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>@Html.ActionLink("Tạo Khách Hàng", "CreateKH_Admin")</th>
+    </tr>
+</table>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" style="text-align:center; color: #f00">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert" style="text-align:center; color: #f00">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MAKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TENKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DIACHI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HINHANH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MAKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TENKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DIACHI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @if (!string.IsNullOrEmpty(item.HINHANH))
+            {
+                <img src="@Url.Content("~/Picture/KhachHang/" + item.HINHANH)" alt="" style="max-width:100px; max-height:100px;" />
+            }
+            else
+            {
+              <span>Không có hình ảnh</span>
+            }
+        </td>
+        <td>
+            <a href="@Url.Action("EditKH_Admin", new { id = item.MAKH.Trim() })" class="my-button">Edit</a>
+            <a href="@Url.Action("DetailsKH_Admin", new { id = item.MAKH.Trim() })" class="my-button">Details</a>
+            <a href="@Url.Action("DeleteKH_Admin", new { id = item.MAKH.Trim() })" class="my-button">Delete</a>
+        </td>
+    </tr>
+}
+
+</table>

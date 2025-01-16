@@ -1,0 +1,29 @@
+﻿@model QuanLyBanNoiThat.Models.LOAISP
+
+@{
+    ViewBag.Title = "DetailsTL_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+<fieldset>
+    <legend>LOAISP</legend>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.TENLOAI)</strong>     
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TENLOAI)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MOTA)</strong>     
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MOTA)
+    </div>
+</fieldset>
+<p style="text-align:center">
+    <a href="@Url.Action("ShowTheLoai_ForAdmin")" class="my-button">Back To List</a>
+</p>

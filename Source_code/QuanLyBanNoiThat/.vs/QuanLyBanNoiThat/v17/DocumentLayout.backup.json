@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|c:\\users\\lenovo\\onedrive\\desktop\\new folder\\\u0111\u1EA1i h\u1ECDc ng\u00E0nh c\u00F4ng ngh\u1EC7 th\u00F4ng tin\\l\u1EADp tr\u00ECnh web (back-end)\\do_an\\source_code\\quanlybannoithat\\quanlybannoithat\\controllers\\chitiethdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\controllers\\chitiethdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\views\\sanpham\\showsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\views\\sanpham\\showsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\views\\hoadon\\createhoadon_kh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\views\\hoadon\\createhoadon_kh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\models\\database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\models\\database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\views\\hoadon\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\views\\hoadon\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\views\\hoadon\\showhoadon_foradmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\views\\hoadon\\showhoadon_foradmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\views\\hoadon\\showgiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\views\\hoadon\\showgiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\models\\database.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\models\\database.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\quanlybannoithat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA30A45-D4DA-407D-969A-CDB743A13C08}|QuanLyBanNoiThat\\QuanLyBanNoiThat.csproj|solutionrelative:quanlybannoithat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietHDController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Controllers\\ChiTietHDController.cs",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Controllers\\ChiTietHDController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Controllers\\ChiTietHDController.cs",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Controllers\\ChiTietHDController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:01:44.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:01:40.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateHoaDon_KH.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\CreateHoaDon_KH.cshtml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Views\\HoaDon\\CreateHoaDon_KH.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\CreateHoaDon_KH.cshtml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Views\\HoaDon\\CreateHoaDon_KH.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T12:09:54.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowSanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\SanPham\\ShowSanPham.cshtml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Views\\SanPham\\ShowSanPham.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\SanPham\\ShowSanPham.cshtml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Views\\SanPham\\ShowSanPham.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T12:01:38.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HoaDonController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Controllers\\HoaDonController.cs",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Controllers\\HoaDonController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Controllers\\HoaDonController.cs",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Controllers\\HoaDonController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:51:41.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBase.designer.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Models\\DataBase.designer.cs",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Models\\DataBase.designer.cs",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Models\\DataBase.designer.cs",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Models\\DataBase.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T09:53:03.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataBase.dbml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Models\\DataBase.dbml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Models\\DataBase.dbml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Models\\DataBase.dbml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Models\\DataBase.dbml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOiSURBVEhLtZRfSFtXHMc/Sa6jmJi8ODMnGv\u002BkaxEW1D2JvotiO2rnGAycuhe7mZmO6QpxU3B5yECXKdM86aCKw\u002BBKqSb40D2s9s2X9kUGuZGQRRCTQRJzO0jI3YN6Sa6JtQ/7wA/uOb/v\u002BZ3zPfecA/8nsixr8tv9/f2f5LdfQ8Tn8z1Xd15KOp3OvUH87XK5PlbXUFPgIJ1O53Z2dlhYWMjvvkBDQwNTU1NUVlYeO53OIY/H41drztGqO67CwcEBMzMziKL4tsvlmh8dHe1Wa84p6UCv1zP\u002BzUR\u002BWuHpH0959uxPmpqasNvtWK3WI4/HM\u002BZ0OjfU2pIOBEHAZrMVjaqqKgBEUWR\u002Bfp5YLGZ2OBw/F3NScoJzdnd32dp6ooSaUCjEzMwMwWDQ7Ha7FxwOR09\u002B/rUTbG09YXllWYlinDsRRbHR5XL9mp8r\u002BQ9MJhMrywXakgwND5JIJLDb7XR1daHX65WFX3BgNBppb2\u002Bno6MDrVaDRlOwhjdGOP\u002BYnZ19H6CtrQ2bzYZOp0Mn6AB4Jb1idXWVFy9fIss5ZbClzsL9\u002B18r7WIIAA6H44ORkZGHsViM7e1t/H4/6XQaAKvVSl9fH7c/vE38nziRSERd41KE6enpa\u002BPj43P7\u002B/s3vV4voigWCILBIHNzc3R3dzM2NkaZ8BayLBdoLkM7MTHxaTKZ7FhbWyMSibC06GVp0ctPcx7q6\u002BsByGazBAIB9vb2lG27KlpgIhQKaUVRRKvVYjabMZvNxOMxysv1ijCbzbK5uUkymeC77yfpu3uHBw\u002B\u002BLShWDC3wXiKRIJVKAXBykiKVSnLjxk3era6mubkZi\u002BXUiSiKGAwG\u002Bj/qZ3homN7eW6pyFyk4pplMhs3fH7G05EWj0fDZ4CB9d\u002B4y9tWYohEEgdaWVnp7b9HZ2Zk/vCgCkCorKzMIgkA2m\u002BXx40dnKZl7I1/Q1tbG0dERAAaDgUwmgxgUOTk5PWWcbV8pBOChxWK5V1NTQzgcVhLvVFejvmM9PT3E43HcP7o5Pj4uTJZAI0lSZS6XOwgEAvrFxUUlodPpEITTeyjLMnV1dUxOTuL3\u002B9nYuPAqAxR9KjScvphftra2/uD3\u002B03b29tEo1HFdkVFBVarlYGBAa5fv55XrjQXJqitrdWvr68PtrS0uA8PD8vD4TCZTAYAk8lEY2Njzmg0Pnc6nSvRaPTfvFpF8fl8v6n7AJAkqVKSpF8kSUpKkiSfxV\u002BSJH0\u002BPT19Ta2/Cv8BdBeocu0wwQ0AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-07T09:52:54.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThanhToan.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Views\\HoaDon\\ThanhToan.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\ThanhToan.cshtml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Views\\HoaDon\\ThanhToan.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T09:09:27.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShowGioHang.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\ShowGioHang.cshtml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Views\\HoaDon\\ShowGioHang.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\ShowGioHang.cshtml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Views\\HoaDon\\ShowGioHang.cshtml",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAcwJcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T08:47:00.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShowHoaDon_ForAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\ShowHoaDon_ForAdmin.cshtml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Views\\HoaDon\\ShowHoaDon_ForAdmin.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\HoaDon\\ShowHoaDon_ForAdmin.cshtml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Views\\HoaDon\\ShowHoaDon_ForAdmin.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T15:01:52.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuanLyBanNoiThat\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\\u0110\u1EA1i H\u1ECDc Ng\u00E0nh C\u00F4ng Ngh\u1EC7 Th\u00F4ng Tin\\L\u1EADp Tr\u00ECnh Web (Back-end)\\Do_An\\Source_code\\QuanLyBanNoiThat\\QuanLyBanNoiThat\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QuanLyBanNoiThat\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:51:45.235Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

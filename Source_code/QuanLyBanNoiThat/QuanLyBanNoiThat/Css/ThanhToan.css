@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    margin-top:10px;
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b3b3b3;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.bank-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bank-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 45%;
+    justify-content: center;
+}
+
+.bank-item:hover {
+    background-color: #f0f0f0;
+}
+
+.bank-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bank-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 45%;
+    justify-content: center;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.bank-item:hover {
+    background-color: #f0f0f0;
+}
+
+.bank-item.selected {
+    background-color: #4CAF50; /* Màu nền khi được chọn */
+    border-color: #3a9e44;    /* Màu viền khi được chọn */
+    color: white;
+}
+
+.bank-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}

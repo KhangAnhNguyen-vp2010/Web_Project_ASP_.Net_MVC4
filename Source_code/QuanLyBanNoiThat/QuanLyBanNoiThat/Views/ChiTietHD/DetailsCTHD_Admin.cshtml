@@ -1,0 +1,43 @@
+﻿@model QuanLyBanNoiThat.Models.CHITIETHD
+
+@{
+    ViewBag.Title = "DetailsCTHD_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+<fieldset>
+    <legend>CHITIETHD</legend>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MAHD)</strong>        
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MAHD)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MASP)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MASP)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.GIABAN)</strong>      
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GIABAN)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.THANHTIEN)</strong>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.THANHTIEN)
+    </div>
+</fieldset>
+<p style="text-align:center">
+    <a href="@Url.Action("ShowCTHD_Admin")" class="my-button">Back To List</a>
+</p>

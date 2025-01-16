@@ -1,0 +1,57 @@
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\QuanLyBanNoiThat.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\QuanLyBanNoiThat.pdb
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Antlr3.Runtime.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\EntityFramework.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Mvc.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Optimization.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Providers.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Razor.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Razor.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\WebGrease.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\EntityFramework.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Mvc.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Razor.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Razor.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.pdb
+C:\Users\lenovo\OneDrive\Desktop\New folder\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\QuanLyBanNoiThat.dll.config
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\QuanLyBanNoiThat.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\QuanLyBanNoiThat.pdb
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Antlr3.Runtime.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\EntityFramework.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Net.Http.Formatting.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Http.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Http.WebHost.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Mvc.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Optimization.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Providers.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Razor.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Razor.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\WebGrease.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\EntityFramework.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Net.Http.Formatting.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Http.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Http.WebHost.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Mvc.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.Razor.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\bin\System.Web.WebPages.Razor.xml
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.csproj.AssemblyReference.cache
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBa.7E24F3F0.Up2Date
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.dll
+C:\Users\lenovo\OneDrive\Desktop\New folder\Đại Học Ngành Công Nghệ Thông Tin\Lập Trình Web (Back-end)\Do_An\Source code\QuanLyBanNoiThat\QuanLyBanNoiThat\obj\Debug\QuanLyBanNoiThat.pdb

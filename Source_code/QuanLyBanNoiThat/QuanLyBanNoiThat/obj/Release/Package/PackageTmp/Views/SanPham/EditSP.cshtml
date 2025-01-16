@@ -1,0 +1,85 @@
+﻿@model QuanLyBanNoiThat.Models.SANPHAM
+
+@{
+    ViewBag.Title = "EditSP";
+    
+}
+
+<h2>EditSP</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>SANPHAM</legend>
+
+        @Html.HiddenFor(model => model.MASP)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TENSP)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TENSP)
+            @Html.ValidationMessageFor(model => model.TENSP)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MOTA)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MOTA)
+            @Html.ValidationMessageFor(model => model.MOTA)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GIA)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GIA)
+            @Html.ValidationMessageFor(model => model.GIA)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MALOAI)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MALOAI)
+            @Html.ValidationMessageFor(model => model.MALOAI)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SL_TON)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SL_TON)
+            @Html.ValidationMessageFor(model => model.SL_TON)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HINHANH)
+        </div>
+        <div class="editor-field">
+            <!-- Hiển thị hình ảnh nếu có -->
+            @if (!string.IsNullOrEmpty(Model.HINHANH))
+            {
+                <img src="@Url.Content("~/Picture/Shop/" + Model.HINHANH)" alt="Hình ảnh" style="max-width:200px;" />
+            }
+            <br />
+            <!-- Input tải lên hình ảnh mới -->
+            <input type="file" name="HINHANH" class="form-control" />
+            @Html.ValidationMessageFor(model => model.HINHANH)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

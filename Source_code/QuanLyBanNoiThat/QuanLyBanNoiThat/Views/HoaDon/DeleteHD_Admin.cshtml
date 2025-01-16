@@ -1,0 +1,49 @@
+﻿@model QuanLyBanNoiThat.Models.HOADON
+
+@{
+    ViewBag.Title = "DeleteHD_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+<h3 style="text-align:center">Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>HOADON</legend>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MAKH)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MAKH)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MANV)</strong>    
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MANV)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.NGAYLAP)</strong>    
+    </div>
+    <div class="display-field">
+        @(Model.NGAYLAP.HasValue ? Model.NGAYLAP.Value.ToString("dd/MM/yyyy") : "N/A")
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.TONGTIEN)</strong>         
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TONGTIEN)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p style="text-align:center">
+        <input type="submit" value="Delete" class="my-button" />
+    </p>
+    <p style="text-align:center">
+        <a href="@Url.Action("ShowHoaDon_ForAdmin")" class="my-button">Back To List</a>
+    </p>
+}

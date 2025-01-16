@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\lenovo\OneDrive\Desktop\UngDung_Web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>11/14/2024 10:58:22</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/14/2024 10:58:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/QuanLyBanNoiThat.dll">
+      <publishTime>12/24/2024 13:36:02</publishTime>
+    </File>
+    <File Include="bin/QuanLyBanNoiThat.pdb">
+      <publishTime>12/24/2024 13:36:02</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/14/2024 10:58:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/14/2024 10:58:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/14/2024 10:58:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/14/2024 10:58:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>11/14/2024 10:58:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/14/2024 10:58:20</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>11/14/2024 10:58:22</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/14/2024 10:58:10</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>11/14/2024 10:58:17</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>11/14/2024 10:58:18</publishTime>
+    </File>
+    <File Include="Css/about.css">
+      <publishTime>11/26/2024 19:01:29</publishTime>
+    </File>
+    <File Include="Css/admin.css">
+      <publishTime>11/15/2024 20:48:08</publishTime>
+    </File>
+    <File Include="Css/blog.css">
+      <publishTime>11/14/2024 11:10:30</publishTime>
+    </File>
+    <File Include="Css/login.css">
+      <publishTime>11/14/2024 11:10:30</publishTime>
+    </File>
+    <File Include="Css/main-moblie.css">
+      <publishTime>11/14/2024 11:10:30</publishTime>
+    </File>
+    <File Include="Css/main.css">
+      <publishTime>11/14/2024 12:07:08</publishTime>
+    </File>
+    <File Include="Css/Shop.css">
+      <publishTime>11/26/2024 19:11:20</publishTime>
+    </File>
+    <File Include="Css/style.css">
+      <publishTime>11/16/2024 12:09:17</publishTime>
+    </File>
+    <File Include="Css/ThanhToan.css">
+      <publishTime>11/16/2024 19:09:41</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/14/2024 10:58:10</publishTime>
+    </File>
+    <File Include="Image_ThanhToan/bidv.png">
+      <publishTime>11/16/2024 18:35:29</publishTime>
+    </File>
+    <File Include="Image_ThanhToan/momo.jpg">
+      <publishTime>11/16/2024 18:35:29</publishTime>
+    </File>
+    <File Include="Image_ThanhToan/tcb.png">
+      <publishTime>11/16/2024 18:35:29</publishTime>
+    </File>
+    <File Include="Image_ThanhToan/vcb.jpg">
+      <publishTime>11/16/2024 18:35:29</publishTime>
+    </File>
+    <File Include="Image_ThanhToan/vpb.jpg">
+      <publishTime>11/16/2024 18:35:29</publishTime>
+    </File>
+    <File Include="js/admin.js">
+      <publishTime>11/15/2024 20:41:05</publishTime>
+    </File>
+    <File Include="js/main.js">
+      <publishTime>11/14/2024 11:10:42</publishTime>
+    </File>
+    <File Include="js/ThanhToan.js">
+      <publishTime>11/16/2024 18:35:57</publishTime>
+    </File>
+    <File Include="Models/DataBase.dbml">
+      <publishTime>12/07/2024 16:55:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/14/2024 10:58:22</publishTime>
+    </File>
+    <File Include="Picture/about-shop-blog.jpg">
+      <publishTime>11/26/2024 19:00:41</publishTime>
+    </File>
+    <File Include="Picture/banner-6-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/banner-7-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/bedroom.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/bg-3-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_01-500x500.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_01.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_02-500x500.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_02.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_03-500x500.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_03.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/Blog/Blog_04.jpg">
+      <publishTime>11/14/2024 11:02:29</publishTime>
+    </File>
+    <File Include="Picture/brand-1-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/brand-2-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/brand-3-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/brand-4-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/brand-5-1.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/categories-10.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/categories-11.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/categories-6.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/categories-7.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/categories-9.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/img-1.png">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/img-15-9-600x600.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/img-16-600x600.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/ketchen-room.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/KhachHang/lovepik-business-mens-office-picture_501225789.jpg">
+      <publishTime>11/15/2024 15:00:20</publishTime>
+    </File>
+    <File Include="Picture/Living-room.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/Login/bg.jpg">
+      <publishTime>11/14/2024 11:02:45</publishTime>
+    </File>
+    <File Include="Picture/Login/slider-3.jpg">
+      <publishTime>11/14/2024 11:02:45</publishTime>
+    </File>
+    <File Include="Picture/out-of-stock.jpg">
+      <publishTime>12/07/2024 19:08:53</publishTime>
+    </File>
+    <File Include="Picture/payments-1.png">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/products-1-600x600.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/products-2-600x600.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/products-7-600x600.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/products-8-600x600.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/Screenshot 2024-06-10 120631.png">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/Shop/banner-33.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/banner-34.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/banner-35.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/bantra_stella.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/brand-1-1.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/brand-2-1.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/brand-3-1.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/brand-4-1.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/categories-10.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/categories-18.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/categories-19.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/categories-6.jpg">
+      <publishTime>11/14/2024 11:02:56</publishTime>
+    </File>
+    <File Include="Picture/Shop/chanlongcuu_aria.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/dentrangtri_aurora.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/ghevanphong_zoom.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/giongdon_nora.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/ketivi_onyx.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/ketreotuong_zeta.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/lohoasu_allegra.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-10-1-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-10-2-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-10-4-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-10-5-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-10-7.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-13-1-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-13-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-15-6-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-15-7-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-16-6.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-17-2-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-17-3-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-17-6-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-17-7-600x600.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/products-4.jpg">
+      <publishTime>11/14/2024 11:02:57</publishTime>
+    </File>
+    <File Include="Picture/Shop/remcua_velvet.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/remcuu_scandinavian.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/sofa_livia.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/thamlongcuu_blanca.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/thamlongcuu_deluxe.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/tranhtreotuong_abtract.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/tuquanao_capri.jpg">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/Shop/tusach_Iris.png">
+      <publishTime>11/18/2024 21:01:45</publishTime>
+    </File>
+    <File Include="Picture/slider-4.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/slider-5.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/slider-6.jpg">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Picture/Staff/th.jpg">
+      <publishTime>11/15/2024 19:56:15</publishTime>
+    </File>
+    <File Include="Picture/text-animation.png">
+      <publishTime>11/14/2024 11:02:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>11/14/2024 10:58:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>11/14/2024 10:58:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>11/14/2024 10:58:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>11/14/2024 10:58:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>11/14/2024 10:58:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>11/14/2024 10:58:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/14/2024 10:58:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/14/2024 10:58:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/14/2024 10:58:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/14/2024 10:58:19</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.debug.js">
+      <publishTime>11/14/2024 10:58:22</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.js">
+      <publishTime>11/14/2024 10:58:22</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>11/14/2024 10:58:19</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>11/14/2024 10:58:16</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>11/16/2024 17:05:19</publishTime>
+    </File>
+    <File Include="Views/Admin/LoginAdmin.cshtml">
+      <publishTime>11/15/2024 19:26:18</publishTime>
+    </File>
+    <File Include="Views/ChiTietHD/CreateCTHD_Admin.cshtml">
+      <publishTime>11/16/2024 15:10:57</publishTime>
+    </File>
+    <File Include="Views/ChiTietHD/DeleteCTHD_Admin.cshtml">
+      <publishTime>11/16/2024 15:10:01</publishTime>
+    </File>
+    <File Include="Views/ChiTietHD/DetailsCTHD_Admin.cshtml">
+      <publishTime>11/16/2024 15:06:37</publishTime>
+    </File>
+    <File Include="Views/ChiTietHD/EditCTHD_Admin.cshtml">
+      <publishTime>11/16/2024 15:12:01</publishTime>
+    </File>
+    <File Include="Views/ChiTietHD/ShowCTHD_Admin.cshtml">
+      <publishTime>11/16/2024 15:51:15</publishTime>
+    </File>
+    <File Include="Views/HoaDon/CreateHD_Admin.cshtml">
+      <publishTime>11/16/2024 12:54:04</publishTime>
+    </File>
+    <File Include="Views/HoaDon/CreateHoaDon_KH.cshtml">
+      <publishTime>12/07/2024 19:46:22</publishTime>
+    </File>
+    <File Include="Views/HoaDon/DeleteHD_Admin.cshtml">
+      <publishTime>11/16/2024 13:08:05</publishTime>
+    </File>
+    <File Include="Views/HoaDon/DetailsHD_Admin.cshtml">
+      <publishTime>11/16/2024 13:05:06</publishTime>
+    </File>
+    <File Include="Views/HoaDon/EditHD_Admin.cshtml">
+      <publishTime>11/16/2024 16:11:27</publishTime>
+    </File>
+    <File Include="Views/HoaDon/ShowGioHang.cshtml">
+      <publishTime>12/07/2024 18:53:05</publishTime>
+    </File>
+    <File Include="Views/HoaDon/ShowHoaDon.cshtml">
+      <publishTime>11/14/2024 22:05:38</publishTime>
+    </File>
+    <File Include="Views/HoaDon/ShowHoaDon_ChuaDuyet.cshtml">
+      <publishTime>11/16/2024 18:03:56</publishTime>
+    </File>
+    <File Include="Views/HoaDon/ShowHoaDon_ForAdmin.cshtml">
+      <publishTime>12/07/2024 16:57:21</publishTime>
+    </File>
+    <File Include="Views/HoaDon/ThanhToan.cshtml">
+      <publishTime>12/07/2024 18:42:07</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>11/26/2024 19:14:12</publishTime>
+    </File>
+    <File Include="Views/Home/Blog.cshtml">
+      <publishTime>11/26/2024 19:14:19</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/16/2024 19:24:08</publishTime>
+    </File>
+    <File Include="Views/KhachHang/CreateKH_Admin.cshtml">
+      <publishTime>11/16/2024 15:36:56</publishTime>
+    </File>
+    <File Include="Views/KhachHang/DeleteKH_Admin.cshtml">
+      <publishTime>11/16/2024 15:47:20</publishTime>
+    </File>
+    <File Include="Views/KhachHang/DetailsKH_Admin.cshtml">
+      <publishTime>11/16/2024 15:43:57</publishTime>
+    </File>
+    <File Include="Views/KhachHang/DetailsKH_TheoTenTK.cshtml">
+      <publishTime>11/17/2024 18:01:15</publishTime>
+    </File>
+    <File Include="Views/KhachHang/EditKH.cshtml">
+      <publishTime>11/15/2024 15:58:52</publishTime>
+    </File>
+    <File Include="Views/KhachHang/EditKH_Admin.cshtml">
+      <publishTime>11/16/2024 15:39:28</publishTime>
+    </File>
+    <File Include="Views/KhachHang/ShowKH_ForAdmin.cshtml">
+      <publishTime>11/16/2024 15:50:57</publishTime>
+    </File>
+    <File Include="Views/Login/DangKy.cshtml">
+      <publishTime>11/15/2024 01:06:24</publishTime>
+    </File>
+    <File Include="Views/Login/DangNhap.cshtml">
+      <publishTime>11/15/2024 16:36:32</publishTime>
+    </File>
+    <File Include="Views/NhanVien/CreateNV_Admin.cshtml">
+      <publishTime>11/16/2024 16:22:27</publishTime>
+    </File>
+    <File Include="Views/NhanVien/DeleteNV_Admin.cshtml">
+      <publishTime>11/16/2024 16:26:02</publishTime>
+    </File>
+    <File Include="Views/NhanVien/DetailsNV_Admin.cshtml">
+      <publishTime>11/16/2024 16:17:11</publishTime>
+    </File>
+    <File Include="Views/NhanVien/EditNV_Admin.cshtml">
+      <publishTime>11/16/2024 19:15:40</publishTime>
+    </File>
+    <File Include="Views/NhanVien/ShowNV_ForAdmin.cshtml">
+      <publishTime>11/16/2024 16:15:50</publishTime>
+    </File>
+    <File Include="Views/SanPham/CreateSP_Admin.cshtml">
+      <publishTime>11/16/2024 15:36:49</publishTime>
+    </File>
+    <File Include="Views/SanPham/DeleteSP_Admin.cshtml">
+      <publishTime>11/16/2024 12:17:43</publishTime>
+    </File>
+    <File Include="Views/SanPham/DetailsSanPham.cshtml">
+      <publishTime>11/18/2024 20:14:22</publishTime>
+    </File>
+    <File Include="Views/SanPham/DetailsSP_Admin.cshtml">
+      <publishTime>11/16/2024 18:42:07</publishTime>
+    </File>
+    <File Include="Views/SanPham/EditSP.cshtml">
+      <publishTime>11/14/2024 19:26:48</publishTime>
+    </File>
+    <File Include="Views/SanPham/EditSP_Admin.cshtml">
+      <publishTime>11/16/2024 12:13:35</publishTime>
+    </File>
+    <File Include="Views/SanPham/ShowSanPham.cshtml">
+      <publishTime>12/07/2024 19:58:31</publishTime>
+    </File>
+    <File Include="Views/SanPham/ShowSanPham_ForAdmin.cshtml">
+      <publishTime>11/18/2024 21:20:05</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/14/2024 10:58:10</publishTime>
+    </File>
+    <File Include="Views/Shared/LayOut_Admin.cshtml">
+      <publishTime>11/17/2024 18:20:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/18/2024 20:26:34</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayOutShop.cshtml">
+      <publishTime>11/26/2024 19:13:29</publishTime>
+    </File>
+    <File Include="Views/Temp/Index.cshtml">
+      <publishTime>11/14/2024 12:40:20</publishTime>
+    </File>
+    <File Include="Views/TheLoai/CreateTL_Admin.cshtml">
+      <publishTime>11/16/2024 12:39:48</publishTime>
+    </File>
+    <File Include="Views/TheLoai/DeleteTL_Admin.cshtml">
+      <publishTime>11/16/2024 12:29:30</publishTime>
+    </File>
+    <File Include="Views/TheLoai/DetailsTL_Admin.cshtml">
+      <publishTime>11/16/2024 12:26:07</publishTime>
+    </File>
+    <File Include="Views/TheLoai/EditTL_Admin.cshtml">
+      <publishTime>11/16/2024 12:27:25</publishTime>
+    </File>
+    <File Include="Views/TheLoai/ShowTheLoai.cshtml">
+      <publishTime>11/15/2024 00:04:40</publishTime>
+    </File>
+    <File Include="Views/TheLoai/ShowTheLoai_ForAdmin.cshtml">
+      <publishTime>11/16/2024 15:50:42</publishTime>
+    </File>
+    <File Include="Views/TheLoai/SP_Theo_TheLoai.cshtml">
+      <publishTime>11/17/2024 18:06:11</publishTime>
+    </File>
+    <File Include="Views/User_KH/CreateUserKH_Admin.cshtml">
+      <publishTime>11/16/2024 16:51:28</publishTime>
+    </File>
+    <File Include="Views/User_KH/DeleteUserKH_Admin.cshtml">
+      <publishTime>11/16/2024 16:55:58</publishTime>
+    </File>
+    <File Include="Views/User_KH/DetailsUserKH_Admin.cshtml">
+      <publishTime>11/16/2024 16:54:06</publishTime>
+    </File>
+    <File Include="Views/User_KH/EditUserKH_Admin.cshtml">
+      <publishTime>11/16/2024 16:52:07</publishTime>
+    </File>
+    <File Include="Views/User_KH/ShowUserKH_ForAdmin.cshtml">
+      <publishTime>11/16/2024 16:50:15</publishTime>
+    </File>
+    <File Include="Views/User_NV/CreateUserNV_Admin.cshtml">
+      <publishTime>11/16/2024 17:38:45</publishTime>
+    </File>
+    <File Include="Views/User_NV/DeleteUserNV_Admin.cshtml">
+      <publishTime>11/16/2024 17:36:37</publishTime>
+    </File>
+    <File Include="Views/User_NV/DetailsUserNV_Admin.cshtml">
+      <publishTime>11/16/2024 17:33:39</publishTime>
+    </File>
+    <File Include="Views/User_NV/EditUserNV_Admin.cshtml">
+      <publishTime>11/16/2024 17:32:12</publishTime>
+    </File>
+    <File Include="Views/User_NV/ShowUserNV_ForAdmin.cshtml">
+      <publishTime>11/16/2024 17:34:27</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/14/2024 10:58:10</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/14/2024 21:23:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/24/2024 13:36:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

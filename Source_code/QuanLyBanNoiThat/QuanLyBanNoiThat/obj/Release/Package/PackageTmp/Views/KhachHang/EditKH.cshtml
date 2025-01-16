@@ -1,0 +1,167 @@
+﻿@model QuanLyBanNoiThat.Models.KHACHHANG
+
+
+@{
+    ViewBag.Title = "EditKH";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    /* Form styling */
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    fieldset {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    legend {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .editor-label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .editor-field {
+        margin-bottom: 15px;
+        width: 96%;
+    }
+
+    .editor-field input[type="text"],
+    .editor-field textarea,
+    .editor-field select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .editor-field input[type="file"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .editor-field input[type="submit"] {
+        background: linear-gradient(to bottom right, #4CAF50, #3CB371);
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 15px 30px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .editor-field input[type="submit"]:hover {
+        background: linear-gradient(to bottom left, #4CAF50, #3CB371);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+    }
+
+    .my-button {
+      background-color: #4CAF50; /* Màu xanh lá cây */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white
+    }
+    
+</style>
+
+<div class="edit-KH">
+    @using (Html.BeginForm()) {
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+
+            @Html.HiddenFor(model => model.MAKH)
+
+            <div class="editor-label">
+                Tên:
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.TENKH)
+                @Html.ValidationMessageFor(model => model.TENKH)
+            </div>
+
+            <div class="editor-label">
+                Địa Chỉ:
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.DIACHI)
+                @Html.ValidationMessageFor(model => model.DIACHI)
+            </div>
+
+            <div class="editor-label">
+                Email:
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.EMAIL)
+                @Html.ValidationMessageFor(model => model.EMAIL)
+            </div>
+
+            <div class="editor-label">
+                Số Điện Thoại:
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.SDT)
+                @Html.ValidationMessageFor(model => model.SDT)
+            </div>
+
+            <div class="editor-label">
+                Hình ảnh:
+            </div>
+            <div class="editor-field">
+                <!-- Hiển thị hình ảnh nếu có -->
+                @if (!string.IsNullOrEmpty(Model.HINHANH))
+                {
+                    <img src="@Url.Content("~/Picture/KhachHang/" + Model.HINHANH)" alt="Hình ảnh" style="max-width:200px;" />
+                }
+                <br />
+                <!-- Input tải lên hình ảnh mới -->
+                <input type="file" name="HINHANH" class="form-control" />
+                @Html.ValidationMessageFor(model => model.HINHANH)
+            </div>
+
+            <p style="text-align:center">
+                <input type="submit" value="Save" class="my-button"/>
+            </p>
+        </fieldset>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

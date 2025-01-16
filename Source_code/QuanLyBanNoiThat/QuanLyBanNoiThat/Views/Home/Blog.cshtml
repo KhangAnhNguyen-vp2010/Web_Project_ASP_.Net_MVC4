@@ -1,0 +1,211 @@
+﻿@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="box-banner-about" style="background-position: 50%; background: url('@Url.Content("~/Picture/about-shop-blog.jpg")') no-repeat center center;">
+    <div class="in-banner-about">
+        <div class="title-banner">Fashion</div>
+        <div class="box-path-about" style="color:white">
+            <div>Trang Chủ</div>
+            <div class="icon">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>Blog</div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="all-box-sidebar">
+        @*<div class="box-search">
+            <h3>Search</h3>
+            <div class="from-search">
+                <input type="text" placeholder="Search..." />
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>*@
+        @*<div class="box-categories">
+            <h3>Thể Loại</h3>
+            <div class="in-categories">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Backpack (8)</div>
+                </a>
+            </div>
+            <div class="in-categories" style="padding-top: 5px">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Fashion (4)</div>
+                </a>
+            </div>
+            <div class="in-categories" style="padding-top: 5px">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Life Style (4)</div>
+                </a>
+            </div>
+            <div class="in-categories" style="padding-top: 5px">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Shorts (5)</div>
+                </a>
+            </div>
+            <div class="in-categories" style="padding: 5px 0 0 0">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Swimwear (4)</div>
+                </a>
+            </div>
+        </div>*@
+        <div class="box-recent">
+            <h3>Bài Viết Gần Đây</h3>
+            <div class="in-recent">
+                <div class="in-content-recent">
+                    <img src="~/Picture/Blog/Blog_01-500x500.jpg" alt="" />
+                    <div class="box-text-recent">
+                        <div>May 30, 2018</div>
+                        <a>Easy Fixes For Home Decor</a>
+                    </div>
+                </div>
+                <div class="in-content-recent">
+                    <img src="~/Picture/Blog/Blog_02-500x500.jpg" alt="" />
+                    <div class="box-text-recent">
+                        <div>May 30, 2018</div>
+                        <a>How To Make Your Home A Showplace</a>
+                    </div>
+                </div>
+                <div class="in-content-recent" style="border-bottom: none">
+                    <img src="~/Picture/Blog/Blog_03-500x500.jpg" alt="" />
+                    <div class="box-text-recent">
+                        <div>May 30, 2018</div>
+                        <a href="">Stunning Furniture With Aesthetic Appeal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="box-categories">
+            <h3>Lưu Trữ</h3>
+            <div class="in-categories">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Năm 2020</div>
+                </a>
+            </div>
+            <div class="in-categories" style="padding-top: 5px">
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="">
+                    <div>Năm 2023</div>
+                </a>
+            </div>
+        </div>*@
+        @*<div class="box-tags">
+            <h3>Tags</h3>
+            <div class="in-tag-1">
+                <a href="" class="tag-1">Em Bé</a>
+                <a href="" class="tag-1">Sắc Đẹp</a>
+                <a href="" class="tag-1">Mỹ Phẩm</a>
+                <a href="" class="tag-1">Chăm Sóc Tai</a>
+                <a href="" class="tag-1">Food</a>
+                <a href="" class="tag-1">Trang Sức</a>
+                <a href="" class="tag-1">Y Học</a>
+                <a href="" class="tag-1">Organic</a>
+                <a href="" class="tag-1">Simple</a>
+                <a href="" class="tag-1">Thể Thao</a>
+            </div>
+        </div>*@
+    </div>
+    <div class="box-content-blog">
+        <div class="blog-1">
+            <a href="">
+                <img src="~/Picture/Blog/Blog_01.jpg" alt="" />
+            </a>
+            <div class="content-blog-1">
+                <div class="list-link">
+                    <a href="">Backpack</a>
+                    <span>,</span>
+                    <a href="">Fashion</a>
+                    <span>,</span>
+                    <a href="">Life style</a>
+                </div>
+                <div class="title">
+                    <a href="">Easy Fixes For Home Decor</a>
+                </div>
+                <div class="box-by">
+                    <span>By : Wpbingo</span>
+                    <span>|</span>
+                    <span>4 Comments</span>
+                </div>
+            </div>
+        </div>
+        <div class="blog-2">
+            <div class="box-1 pading-img-1">
+                <img src="~/Picture/Blog/Blog_02.jpg" alt="" />
+                <div class="content-box-1">
+                    <div class="first-content">
+                        <a href="">Backpack</a>
+                        <span>,</span>
+                        <a href="">Fashion</a>
+                        <span>,</span>
+                        <a href="">Life style</a>
+                    </div>
+                    <div class="second-content">
+                        <a href="">How To Make Your Home A Showplace</a>
+                    </div>
+                    <div class="three-content">
+                        <span>By : Wpbingo</span>
+                        <span>|</span>
+                        <span>1 Comment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-1 pading-img-2">
+                <img src="~/Picture/Blog/Blog_03.jpg" alt="" />
+                <div class="content-box-1">
+                    <div class="first-content">
+                        <a href="">Backpack</a>
+                        <span>,</span>
+                        <a href="">Fashion</a>
+                        <span>,</span>
+                        <a href="">Life style</a>
+                    </div>
+                    <div class="second-content">
+                        <a href="">Stunning Furniture With Aesthetic Appeal</a>
+                    </div>
+                    <div class="three-content">
+                        <span>By : Wpbingo</span>
+                        <span>|</span>
+                        <span>1 Comment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-1">
+            <a href="">
+                <img src="~/Picture/Blog/Blog_04.jpg" alt="" />
+            </a>
+            <div class="content-blog-1">
+                <div class="list-link">
+                    <a href="">Backpack</a>
+                    <span>,</span>
+                    <a href="">Fashion</a>
+                    <span>,</span>
+                    <a href="">Life style</a>
+                    <span>,</span>
+                    <a href="">Swimwear</a>
+                </div>
+                <div class="title">
+                    <a href="">How To Choose The Right Sectional Sofa</a>
+                </div>
+                <div class="box-by">
+                    <span>By : Wpbingo</span>
+                    <span>|</span>
+                    <span>0 Comments</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿@model QuanLyBanNoiThat.Models.NHANVIEN
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<style>
+    .my-button {
+          background-color: #4CAF50; /* Màu xanh lá cây */
+          border: none;
+          color: white;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+    }
+
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white;
+    }
+</style>
+
+<h3 style="text-align:center">Thông Tin Nhân Viên</h3>
+<div style="margin:auto; border: 1px solid; width:30%; padding: 30px; background-color:#b5ebff">
+    
+    <h3><strong>Mã Nhân Viên:</strong> @Model.MANV</h3>
+    <h3><strong>Tên Nhân Viên:</strong> @Model.TENNHANVIEN</h3>
+    <h3><strong>SĐT:</strong> @Model.SDT</h3>
+    <h3><strong>Email:</strong> @Model.EMAIL</h3>
+    <h3><strong>Ngày Vào Làm:</strong> @(Model.NGAYVAOLAM.HasValue ? Model.NGAYVAOLAM.Value.ToString("dd/MM/yyyy") : "N/A")</h3>
+</div>
+<div style="text-align:center"><a class="my-button" href="@Url.Action("EditNV_Admin", "NhanVien", new { id = @Model.MANV.Trim() })">Chỉnh Sửa Hồ Sơ</a></div>
+
+

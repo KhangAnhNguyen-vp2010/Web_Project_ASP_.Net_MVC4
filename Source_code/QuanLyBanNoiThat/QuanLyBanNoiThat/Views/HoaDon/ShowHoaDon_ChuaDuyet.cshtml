@@ -1,0 +1,99 @@
+﻿@model IEnumerable<QuanLyBanNoiThat.Models.HOADON>
+
+@{
+    ViewBag.Title = "ShowHoaDon_ChuaDuyet";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<style>
+    table {
+        width:90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+    td {
+        background-color: #fafafa;
+    }
+
+    .my-button {
+          background-color: #4CAF50; /* Màu xanh lá cây */
+          border: none;
+          color: white;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+    }
+
+    .my-button:hover {
+        background-color: #3e8e41;
+        color:white;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MAHD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MAKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MANV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NGAYLAP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TONGTIEN)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        @if (item.MANV == null)
+        {
+            <td>
+            @Html.DisplayFor(modelItem => item.MAHD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MAKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MANV)
+            </td>
+            <td>
+                @(item.NGAYLAP.HasValue ? item.NGAYLAP.Value.ToString("dd/MM/yyyy") : "N/A")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TONGTIEN)
+            </td>
+            <td>
+                <form method="post" action="@Url.Action("DuyetHoaDon", new { id = item.MAHD.Trim() })">
+                    <input type="submit" value="Duyệt" class="my-button"/>
+                </form>              
+            </td>
+        }        
+    </tr>
+}
+
+</table>

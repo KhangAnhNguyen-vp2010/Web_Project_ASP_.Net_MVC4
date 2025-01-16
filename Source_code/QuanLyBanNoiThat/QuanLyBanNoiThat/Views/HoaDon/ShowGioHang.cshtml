@@ -1,0 +1,186 @@
+﻿@using QuanLyBanNoiThat.Models;
+@model List<CHITIETHD>
+@{
+    ViewBag.Title = "ShowGioHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+    td {
+        background-color: #fafafa;
+    }
+
+    .my-button {
+        background-color: #4CAF50; /* Màu xanh lá cây */
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+        .my-button:hover {
+            background-color: #3e8e41;
+            color: white;
+        }
+
+    .button-huy {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+        .button-huy:hover {
+            background-color: #fd8282;
+            color: white;
+        }
+
+    .sumTotal {
+        text-align: center;
+        font-size: 20px;
+        margin: 20px;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>
+            Mã Hoá Đơn
+        </th>
+        <th>
+            Mã Sản Phẩm
+        </th>
+        <th>
+            Ngày Lập
+        </th>
+        <th>
+            Số Lượng
+        </th>
+        <th>
+            Giá Bán
+        </th>
+        <th>
+            Tổng Tiền
+        </th>
+        <th>
+            Hình Ảnh
+        </th>
+        <th>
+            Người Duyệt
+        </th>
+        <th colspan="2"></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.HOADON.MAHD
+            </td>
+            <td>
+                @item.SANPHAM.MASP
+            </td>
+            <td>
+                @(item.HOADON.NGAYLAP.HasValue ? item.HOADON.NGAYLAP.Value.ToString("dd/MM/yyyy") : "N/A")
+            </td>
+            <td>
+                @item.SOLUONG
+            </td>
+            <td>
+                @Convert.ToInt32(item.GIABAN)
+            </td>
+            <td>
+                @Convert.ToInt32(item.HOADON.TONGTIEN)
+            </td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.SANPHAM.HINHANH))
+                {
+                    <img src="@Url.Content("~/Picture/Shop/" + item.SANPHAM.HINHANH)" alt="" style="max-width:100px; max-height:100px;" />
+                }
+                else
+                {
+                    <span>Không có hình ảnh</span>
+                }
+            </td>
+
+            <td>
+                @if (item.HOADON.MANV == null)
+                {
+
+                    <i>Đợi Duyệt Đơn Hàng</i>
+                }
+                else
+                {
+                    @item.HOADON.MANV
+                }
+            </td>
+            @if (item.HOADON.TRANGTHAI == "Đã Thanh Toán")
+            {
+                <td colspan="2">
+                    <i style="color: darkgoldenrod">@item.HOADON.TRANGTHAI</i>
+                </td>
+            }
+            else
+            {
+                <td style="width:15%">
+                    @if (item.HOADON.MANV != null)
+                    {
+                        { ViewBag.Flag = "hihi"; }
+                        <a href="@Url.Action("ThanhToan", "HoaDon", new { AllorSingle = 0, makh = Session["MaKH"], mahd = item.MAHD })" class="my-button">Thanh Toán</a>
+                    }
+                    else
+                    {
+                        @item.HOADON.TRANGTHAI
+                    }
+                </td>
+                <td>
+                    <form method="post" action="@Url.Action("HuyDonHang", "HoaDon", new { mahd = item.MAHD.Trim(), masp = item.MASP.Trim(), sl = item.SOLUONG})">
+                        <input type="submit" class="button-huy" value="Huỷ" />
+                    </form>
+                </td>
+            }
+        </tr>
+        
+    }
+
+</table>
+<div class="sumTotal">
+    <strong>Tổng Tiền: @ViewBag.TongTienALL VNĐ</strong>
+    @if (ViewBag.Flag != null)
+    {
+        <a href="@Url.Action("ThanhToan", "HoaDon", new { AllorSingle = 1, makh = Session["MaKH"] })" class="my-button">Thanh Toán</a>
+    }
+
+</div>

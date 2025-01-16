@@ -1,0 +1,55 @@
+﻿@model QuanLyBanNoiThat.Models.SANPHAM
+
+@{
+    ViewBag.Title = "CreateHoaDon_KH";
+    Layout = "~/Views/Shared/_LayOutShop.cshtml";
+}
+
+<style>
+    #myNumber {
+        width: 100px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 16px;
+    }
+</style>
+
+
+<div style="width:50%; margin: auto; margin-top: 0px; background-color: whitesmoke">
+    <div style="padding: 20px; text-align:center">
+        <form method="post" action="@Url.Action("CreateHoaDon_KH", "HoaDon", new { masp = Model.MASP.Trim(), gia = Model.GIA })">
+            <div class="editor-field">
+                <!-- Hiển thị hình ảnh nếu có -->
+                @if (!string.IsNullOrEmpty(Model.HINHANH))
+                {
+                    <img src="@Url.Content("~/Picture/Shop/" + Model.HINHANH)" alt="Hình ảnh" style="max-width:200px;" />
+                }
+            </div>
+            <p><strong>Mã Sản Phẩm:</strong> @Model.MASP</p>
+            <p><strong>Tên Sản Phẩm:</strong> @Model.TENSP</p>
+            <p><strong>Mã Loại:</strong> @Model.MALOAI</p>
+            <p><strong>Giá:</strong> @Model.GIA đồng</p>
+            <p><strong>Số Lượng Tồn:</strong> @Model.SL_TON</p>
+            <p><strong>Nhập số lượng cần mua:</strong></p>
+            <p><input type="number" id="myNumber" min="1" max="10" onkeydown="return false;" name="sl" value="1"></p>
+            <p><input type="submit" value="Mua" style="padding: 10px; width: 20%; background-color:#f7c3c3; border: 1px solid" /></p>
+            <p style="color:red; text-align:center; font-size: 16px">
+                <strong>
+                    @if (ViewBag.ThongBaoCreHD != null)
+                    {
+                        @ViewBag.ThongBaoCreHD
+                    }
+                </strong>
+            </p>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

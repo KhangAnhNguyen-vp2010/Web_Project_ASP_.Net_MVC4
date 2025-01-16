@@ -1,0 +1,72 @@
+﻿@model QuanLyBanNoiThat.Models.NHANVIEN
+
+@{
+    ViewBag.Title = "CreateNV_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>NHANVIEN</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MANV)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MANV)
+            @Html.ValidationMessageFor(model => model.MANV)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TENNHANVIEN)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TENNHANVIEN)
+            @Html.ValidationMessageFor(model => model.TENNHANVIEN)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SDT)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SDT)
+            @Html.ValidationMessageFor(model => model.SDT)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EMAIL)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EMAIL)
+            @Html.ValidationMessageFor(model => model.EMAIL)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NGAYVAOLAM)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NGAYVAOLAM)
+            @Html.ValidationMessageFor(model => model.NGAYVAOLAM)
+        </div>
+
+        <p class="message">
+            @ViewBag.ThongBao
+        </p>
+
+        <p style="text-align:center">
+            <input type="submit" value="Create" class="my-button" />
+        </p>
+    </fieldset>
+}
+
+<div style="text-align:center">
+    <a href="@Url.Action("ShowNV_ForAdmin")" class="my-button">Back To List</a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

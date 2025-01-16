@@ -1,0 +1,42 @@
+﻿@model QuanLyBanNoiThat.Models._USER_KH
+
+@{
+    ViewBag.Title = "DeleteUserKH_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+<h3 style="text-align:center">Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>_USER_KH</legend>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.TENDANGNHAP)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TENDANGNHAP)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.MATKHAU)</strong>   
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MATKHAU)
+    </div>
+
+    <div class="display-label">
+        <strong>@Html.DisplayNameFor(model => model.VAITRO)</strong>       
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.VAITRO)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p style="text-align:center">
+        <input type="submit" value="Delete" class="my-button" /> 
+    </p>
+    <p style="text-align:center">
+        <a href="@Url.Action("ShowUserKH_ForAdmin")" class="my-button">Back To List</a>
+    </p>
+}

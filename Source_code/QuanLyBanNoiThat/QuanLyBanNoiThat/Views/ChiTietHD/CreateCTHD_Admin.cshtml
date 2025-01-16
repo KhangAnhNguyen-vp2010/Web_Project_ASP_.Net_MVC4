@@ -1,0 +1,64 @@
+﻿@model QuanLyBanNoiThat.Models.CHITIETHD
+
+@{
+    ViewBag.Title = "CreateCTHD_Admin";
+    Layout = "~/Views/Shared/LayOut_Admin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Css/style.css">
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>CHITIETHD</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MAHD)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MAHD)
+            @Html.ValidationMessageFor(model => model.MAHD)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MASP)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MASP)
+            @Html.ValidationMessageFor(model => model.MASP)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SOLUONG)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SOLUONG)
+            @Html.ValidationMessageFor(model => model.SOLUONG)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GIABAN)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GIABAN)
+            @Html.ValidationMessageFor(model => model.GIABAN)
+        </div>
+
+        <p class="message">
+            @ViewBag.ThongBao
+        </p>
+
+        <p style="text-align:center">
+            <input type="submit" value="Create" class="my-button" />
+        </p>
+    </fieldset>
+}
+
+<div style="text-align:center">
+    <a href="@Url.Action("ShowCTHD_Admin")" class="my-button">Back To List</a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
